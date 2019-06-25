@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0df2152-33b7-47ed-9f16-9e67218f145a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/doc/day1.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/day1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workshop/collections.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/workshop/collections.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_test_check_0_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Guessing_Game.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Leiningen_REPL.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workshop/labs/collections.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/workshop/labs/collections.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/workshop/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/workshop/core_test.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/workshop.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,100 +20,51 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/day1.md">
+        <entry file="file://$PROJECT_DIR$/doc/slides/day2.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="428">
-                <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+              <first_editor relative-caret-position="390">
+                <caret line="26" selection-start-line="26" selection-end-line="26" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/workshop/game/game.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/workshop/core_test.clj">
+        <entry file="file://$PROJECT_DIR$/src/workshop/game/game_v2.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/workshop/errors.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/workshop/variables.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/workshop/fizz_buzz.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/repl.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="201" column="10" selection-start-line="201" selection-start-column="10" selection-end-line="201" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/workshop/labs/collections.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="59" column="98" selection-start-line="59" selection-start-column="98" selection-end-line="59" selection-end-column="98" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="6187" column="6" selection-start-line="6187" selection-start-column="6" selection-end-line="6187" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core_deftype.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="311" column="10" selection-start-line="311" selection-start-column="10" selection-end-line="311" selection-end-column="10" />
+            <state relative-caret-position="397">
+              <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -116,9 +74,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Clojure Test Namespace" />
         <option value="Clojure Namespace" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>result</find>
+      <find>game</find>
+      <find>sec</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -126,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/day1/da1.txt" />
         <option value="$PROJECT_DIR$/src/workshop/core.clj" />
         <option value="$PROJECT_DIR$/day1/day1.txt" />
@@ -136,14 +101,23 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/workshop/docs.clj" />
         <option value="$PROJECT_DIR$/src/workshop/collections.clj" />
-        <option value="$PROJECT_DIR$/src/workshop/labs/collections.clj" />
         <option value="$PROJECT_DIR$/doc/day1.md" />
+        <option value="$PROJECT_DIR$/src/workshop/labs/collections.clj" />
+        <option value="$PROJECT_DIR$/test/workshop/labs/collections_test.clj" />
         <option value="$PROJECT_DIR$/test/workshop/core_test.clj" />
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/workshop/day2/temperature.clj" />
+        <option value="$PROJECT_DIR$/test/workshop/day2/temperature_test.clj" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/doc/slides/day2.md" />
+        <option value="$PROJECT_DIR$/src/workshop/game/game.clj" />
+        <option value="$PROJECT_DIR$/src/workshop/game/game-v2.clj" />
+        <option value="$PROJECT_DIR$/src/workshop/game/game_v2.clj" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1432" />
     <option name="height" value="850" />
@@ -155,7 +129,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,11 +144,30 @@
             <path>
               <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="slides" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -184,10 +176,18 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="workshop" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="day2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,18 +195,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="cursive.last.file.extension./Users/pivotal/IdeaProjects/workshop/src" value="clj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/workshop/game" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/workshop/game" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/doc" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1561420864136">{:repl-history {:ide [], :local [{:command &quot;42&quot;, :offset 2, :ns &quot;workshop.core&quot;} {:command &quot;(println \&quot;hello world\&quot;)&quot;, :offset 22, :ns &quot;workshop.core&quot;} {:command &quot;(/ (+ 7 (* 3 4) 5) 10)&quot;, :offset 3, :ns &quot;workshop.core&quot;} {:command &quot;(foo \&quot;drx\&quot;)&quot;, :offset 10, :ns &quot;workshop.core&quot;} {:command &quot;(foo \&quot;drx\&quot;\n     \n     )&quot;, :offset 22, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius 54)&quot;, :offset 24, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius 32) &quot;, :offset 25, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius 212)&quot;, :offset 25, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius -40)&quot;, :offset 25, :ns &quot;workshop.core&quot;} {:command &quot;(find-doc \&quot;remainder\&quot;)&quot;, :offset 0, :ns &quot;workshop.core&quot;} {:command &quot;(source when)&quot;, :offset 13, :ns &quot;workshop.core&quot;} {:command &quot;(apropo when)&quot;, :offset 13, :ns &quot;workshop.core&quot;} {:command &quot;(apropop\n  when)&quot;, :offset 11, :ns &quot;workshop.core&quot;} {:command &quot;(dir workshop.core)&quot;, :offset 19, :ns &quot;workshop.core&quot;} {:command &quot;(type 'workshop.core\n      )&quot;, :offset 27, :ns &quot;workshop.core&quot;} {:command &quot;(pst)&quot;, :offset 5, :ns &quot;workshop.core&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1561491417705">{:repl-history {:ide [], :local [{:command &quot;42&quot;, :offset 2, :ns &quot;workshop.core&quot;} {:command &quot;(println \&quot;hello world\&quot;)&quot;, :offset 22, :ns &quot;workshop.core&quot;} {:command &quot;(/ (+ 7 (* 3 4) 5) 10)&quot;, :offset 3, :ns &quot;workshop.core&quot;} {:command &quot;(foo \&quot;drx\&quot;)&quot;, :offset 10, :ns &quot;workshop.core&quot;} {:command &quot;(foo \&quot;drx\&quot;\n     \n     )&quot;, :offset 22, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius 54)&quot;, :offset 24, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius 32) &quot;, :offset 25, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius 212)&quot;, :offset 25, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius -40)&quot;, :offset 25, :ns &quot;workshop.core&quot;} {:command &quot;(find-doc \&quot;remainder\&quot;)&quot;, :offset 0, :ns &quot;workshop.core&quot;} {:command &quot;(source when)&quot;, :offset 13, :ns &quot;workshop.core&quot;} {:command &quot;(apropo when)&quot;, :offset 13, :ns &quot;workshop.core&quot;} {:command &quot;(apropop\n  when)&quot;, :offset 11, :ns &quot;workshop.core&quot;} {:command &quot;(dir workshop.core)&quot;, :offset 19, :ns &quot;workshop.core&quot;} {:command &quot;(type 'workshop.core\n      )&quot;, :offset 27, :ns &quot;workshop.core&quot;} {:command &quot;(pst)&quot;, :offset 5, :ns &quot;workshop.core&quot;} {:command &quot;(def setx #{{:name \&quot;a\&quot;, :rank 32}})&quot;, :offset 34, :ns &quot;workshop.core&quot;} {:command &quot;(def game\n  {:round 2\n   :players #{{:name \&quot;Una\&quot; :ranking 43}\n              {:name \&quot;Bob\&quot; :ranking 77}\n              {:name \&quot;Cid\&quot; :ranking 33}}\n   :scores {\&quot;Una\&quot; 1400\n            \&quot;Bob\&quot; 1240\n            \&quot;Cid\&quot; 1024}})&quot;, :offset 214, :ns &quot;workshop.core&quot;} {:command &quot;(get-in game [:players\n              ])&quot;, :offset 37, :ns &quot;workshop.core&quot;} {:command &quot;(map (get game :players) (fn [p] (get p :name))&quot;, :offset 47, :ns &quot;workshop.core&quot;} {:command &quot;(map (get game :players) (fn [p] (get p :name)))&quot;, :offset 48, :ns &quot;workshop.core&quot;} {:command &quot;(get game :player)&quot;, :offset 0} {:command &quot;(get game :players)&quot;, :offset 18, :ns &quot;workshop.core&quot;} {:command &quot;(map (fn [p] (get p :name)) (get game :players))&quot;, :offset 47, :ns &quot;workshop.core&quot;} {:command &quot;(find (fn [p] (= (get p :name) \&quot;Una\&quot;) (get game :players)))&quot;, :offset 59, :ns &quot;workshop.core&quot;} {:command &quot;(def players (:players game))&quot;, :offset 28, :ns &quot;workshop.core&quot;} {:command &quot;(filter (fn [p] (= (:name p) name) players)))&quot;, :offset 45, :ns &quot;workshop.core&quot;} {:command &quot;(filter (fn [p] (= (:name p) \&quot;Una\&quot;) players))&quot;, :offset 33, :ns &quot;workshop.core&quot;} {:command &quot;((filter (fn [p] (= (:name p) name))) players)&quot;, :offset 46, :ns &quot;workshop.core&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -219,18 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application.workshop.labs.collections">
-    <configuration name="Leiningen REPL" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
-      <module name="workshop" />
-      <setting name="replType" value="NREPL" />
-      <setting name="execution" value="LEININGEN" />
-      <setting name="jvmArgs" value="" />
-      <setting name="parameters" value="" />
-      <setting name="workingDir" value="$PROJECT_DIR$" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Clojure Application.Guessing Game">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -249,73 +242,82 @@
       <module name="" />
       <method v="2" />
     </configuration>
-    <configuration name="docs" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+    <configuration name="collections_test" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="workshop" />
-      <setting name="path" value="$PROJECT_DIR$/src/workshop/docs.clj" />
+      <setting name="path" value="$PROJECT_DIR$/test/workshop/labs/collections_test.clj" />
       <setting name="namespace" value="" />
       <setting name="execution" value="INTELLIJ" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/workshop" />
+      <setting name="workDir" value="$PROJECT_DIR$/test/workshop/labs" />
       <method v="2" />
     </configuration>
-    <configuration name="fizz_buzz" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+    <configuration name="core_test" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="workshop" />
-      <setting name="path" value="$PROJECT_DIR$/src/workshop/fizz_buzz.clj" />
+      <setting name="path" value="$PROJECT_DIR$/test/workshop/core_test.clj" />
       <setting name="namespace" value="" />
       <setting name="execution" value="INTELLIJ" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/workshop" />
+      <setting name="workDir" value="$PROJECT_DIR$/test/workshop" />
       <method v="2" />
     </configuration>
-    <configuration name="variables" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+    <configuration name="temperature_test" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="workshop" />
-      <setting name="path" value="$PROJECT_DIR$/src/workshop/variables.clj" />
+      <setting name="path" value="$PROJECT_DIR$/test/workshop/day2/temperature_test.clj" />
       <setting name="namespace" value="" />
       <setting name="execution" value="INTELLIJ" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/workshop" />
+      <setting name="workDir" value="$PROJECT_DIR$/test/workshop/day2" />
       <method v="2" />
     </configuration>
-    <configuration name="workshop.collections" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+    <configuration name="workshop.core-test" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="workshop" />
-      <setting name="path" value="$PROJECT_DIR$/src/workshop/collections.clj" />
+      <setting name="path" value="$PROJECT_DIR$/test/workshop/core_test.clj" />
       <setting name="namespace" value="" />
       <setting name="execution" value="INTELLIJ" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/workshop" />
+      <setting name="workDir" value="$PROJECT_DIR$/test/workshop" />
       <method v="2" />
     </configuration>
-    <configuration name="workshop.labs.collections" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+    <configuration name="workshop.labs.collections-test" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="workshop" />
-      <setting name="path" value="$PROJECT_DIR$/src/workshop/labs/collections.clj" />
+      <setting name="path" value="$PROJECT_DIR$/test/workshop/labs/collections_test.clj" />
       <setting name="namespace" value="" />
       <setting name="execution" value="INTELLIJ" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/workshop/labs" />
+      <setting name="workDir" value="$PROJECT_DIR$/test/workshop/labs" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Clojure Application.Guessing Game" />
+      <item itemvalue="Clojure Application.collections_test" />
+      <item itemvalue="Clojure Application.core_test" />
+      <item itemvalue="Clojure Application.temperature_test" />
+      <item itemvalue="Clojure Application.workshop.core-test" />
+      <item itemvalue="Clojure Application.workshop.labs.collections-test" />
+      <item itemvalue="Clojure REPL.Leiningen REPL" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Clojure Application.workshop.labs.collections" />
-        <item itemvalue="Clojure Application.workshop.collections" />
-        <item itemvalue="Clojure Application.docs" />
-        <item itemvalue="Clojure Application.fizz_buzz" />
-        <item itemvalue="Clojure Application.variables" />
+        <item itemvalue="Clojure Application.temperature_test" />
+        <item itemvalue="Clojure Application.core_test" />
+        <item itemvalue="Clojure Application.workshop.labs.collections-test" />
+        <item itemvalue="Clojure Application.workshop.core-test" />
+        <item itemvalue="Clojure Application.collections_test" />
       </list>
     </recent_temporary>
   </component>
@@ -332,17 +334,18 @@
       <workItem from="1561393840530" duration="287000" />
       <workItem from="1561394146952" duration="4532000" />
       <workItem from="1561398933499" duration="15310000" />
+      <workItem from="1561486437815" duration="4720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20129000" />
+    <option name="totallyTimeSpent" value="33383000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="23" width="1432" height="850" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1647482" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -351,7 +354,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3298153" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31847134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973614" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,41 +371,16 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Leiningen" order="7" />
+      <window_info anchor="right" id="Leiningen" order="7" weight="0.3297568" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="REPL" order="10" visible="true" weight="0.2676259" />
+      <window_info anchor="right" id="REPL" order="10" visible="true" weight="0.20529328" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/workshop/labs/collections.clj</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/workshop/labs/collections.clj</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/workshop/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -413,27 +391,6 @@
             <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/workshop/errors.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/workshop/variables.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -466,17 +423,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core_deftype.clj">
+    <entry file="file://$PROJECT_DIR$/src/workshop/errors.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="311" column="10" selection-start-line="311" selection-start-column="10" selection-end-line="311" selection-end-column="10" />
+        <state relative-caret-position="120">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/workshop/collections.clj">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workshop/variables.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -487,32 +451,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core_deftype.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="311" column="10" selection-start-line="311" selection-start-column="10" selection-end-line="311" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj">
+    <entry file="file://$PROJECT_DIR$/src/workshop/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="6187" column="6" selection-start-line="6187" selection-start-column="6" selection-end-line="6187" selection-end-column="6" />
+        <state relative-caret-position="90">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/workshop/labs/collections_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/workshop/core_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/workshop/labs/collections.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="59" column="98" selection-start-line="59" selection-start-column="98" selection-end-line="59" selection-end-column="98" />
+        <state relative-caret-position="185">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/day1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="428">
-            <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+          <first_editor relative-caret-position="15">
+            <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           </first_editor>
           <second_editor />
         </state>
@@ -523,10 +501,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/workshop/core_test.clj">
+    <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/workshop/day2/temperature_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workshop/day2/temperature.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="4918" column="6" selection-start-line="4918" selection-start-column="6" selection-end-line="4918" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workshop/collections.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/slides/day2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="390">
+            <caret line="26" selection-start-line="26" selection-end-line="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workshop/game/game.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workshop/game/game_v2.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
         </state>
       </provider>
     </entry>

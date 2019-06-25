@@ -9,3 +9,5 @@
 (deftest another-test
   (testing "should call"
     ))
+
+(run-tests)

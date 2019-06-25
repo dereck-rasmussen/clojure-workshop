@@ -1,6 +1,9 @@
 
 repl:
-    lein repl
+	lein repl
 
 cli:
-    clj
+	clj
+
+run:
+	lein run -m workshop.game.game
