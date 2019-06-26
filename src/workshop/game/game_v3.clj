@@ -59,8 +59,8 @@
         (when-not (finished? game)
           (recur))))))
 
-(defn -main [& args]
-  (play-game))
+;(defn -main [& args]
+;  (play-game))
 
 ;;; Functional test harness
 
