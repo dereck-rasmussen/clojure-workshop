@@ -1,9 +1,10 @@
-(ns workshop.game.game_v2)
+(ns workshop.game.game-v2)
 
 (defn new-game []
   {
    :secret (inc (rand-int 10))
    :guess  -1
+   :status :start
    }
   )
 
@@ -20,9 +21,7 @@
         secret (:secret state)
         ]
     (cond
-      (not (number? guess)) "bye!"
       (= guess secret) "you win"
-
       (> guess secret) "too high"
       (< guess secret) "too low"
       :else (println "error")

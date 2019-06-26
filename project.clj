@@ -6,5 +6,6 @@
   :dependencies [
                  [org.clojure/clojure "1.10.0"]
                  [org.clojure/test.check "0.9.0"]
+                 [org.clojure/core.async "0.4.500"]
                  ]
   :repl-options {:init-ns workshop.core})

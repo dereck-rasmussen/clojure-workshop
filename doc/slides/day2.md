@@ -24,3 +24,36 @@ Example test vs generative test (random sample input?)
 
 
 ## Recursion 
+loop and recur keywords for tail recursion
+
+## Testing 2
+
+### with-redefs
+You can override clojure functions for a test using redefs
+ with-redefs [
+ 	rand-int (fn [] ...)
+ ]
+ (...)
+ 
+### Prodocols 
+
+
+## Atoms
+Boxes for immutable data
+(atom a)
+(deref a) ; => 5
+(@a) ; => 5
+(reset! a 6) ; => 6
+(swap! a inc) ; => 7
+(def m (atom {
+:foo 1
+:bar "hi"
+}))
+
+## Game with channels
+
+prompt is channel
+- waits for message input
+- then triggers input channel to get input
+
+is trigger for input
