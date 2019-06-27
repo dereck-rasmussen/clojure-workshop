@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0df2152-33b7-47ed-9f16-9e67218f145a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/workshop/game/game_v3.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/workshop/game/game_v3.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workshop/game/game_v4.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/workshop/game/game_v4.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workshop/destructuring.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/slides/day2.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/day2.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,41 +32,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/slides/day2.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/day3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="380">
-                <caret line="57" selection-start-line="57" selection-end-line="57" />
+              <first_editor relative-caret-position="135">
+                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/workshop/game/game_v4.clj">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/workshop/destructuring.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+            <state relative-caret-position="285">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/workshop/game/game_v3.clj">
+        <entry file="file://$PROJECT_DIR$/src/workshop/day3/components.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="61" selection-start-line="61" selection-start-column="1" selection-end-line="62" selection-end-column="15" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/workshop/channels.clj">
+        <entry file="file://$PROJECT_DIR$/src/workshop/macros.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="77" column="17" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="17" />
+            <state relative-caret-position="105">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/webapp.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -126,14 +136,20 @@
         <option value="$PROJECT_DIR$/doc/slides/day2.md" />
         <option value="$PROJECT_DIR$/src/workshop/game/game_v4.clj" />
         <option value="$PROJECT_DIR$/src/workshop/game/game_v3.clj" />
+        <option value="$PROJECT_DIR$/doc/day2.md" />
+        <option value="$PROJECT_DIR$/src/workshop/macros.clj" />
+        <option value="$PROJECT_DIR$/src/webapp.clj" />
+        <option value="$PROJECT_DIR$/src/workshop/destructuring.clj" />
+        <option value="$PROJECT_DIR$/src/workshop/day3/components.clj" />
+        <option value="$PROJECT_DIR$/doc/day3.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="58" />
     <option name="y" value="23" />
-    <option name="width" value="1432" />
-    <option name="height" value="850" />
+    <option name="width" value="720" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -152,11 +168,6 @@
             <path>
               <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workshop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -164,38 +175,6 @@
               <item name="workshop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="workshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="labs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="workshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,7 +203,7 @@
       <recent name="$PROJECT_DIR$/doc" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1561508040571">{:repl-history {:ide [], :local [{:command &quot;42&quot;, :offset 2, :ns &quot;workshop.core&quot;} {:command &quot;(println \&quot;hello world\&quot;)&quot;, :offset 22, :ns &quot;workshop.core&quot;} {:command &quot;(/ (+ 7 (* 3 4) 5) 10)&quot;, :offset 3, :ns &quot;workshop.core&quot;} {:command &quot;(foo \&quot;drx\&quot;)&quot;, :offset 10, :ns &quot;workshop.core&quot;} {:command &quot;(foo \&quot;drx\&quot;\n     \n     )&quot;, :offset 22, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius 54)&quot;, :offset 24, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius 32) &quot;, :offset 25, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius 212)&quot;, :offset 25, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius -40)&quot;, :offset 25, :ns &quot;workshop.core&quot;} {:command &quot;(find-doc \&quot;remainder\&quot;)&quot;, :offset 0, :ns &quot;workshop.core&quot;} {:command &quot;(source when)&quot;, :offset 13, :ns &quot;workshop.core&quot;} {:command &quot;(apropo when)&quot;, :offset 13, :ns &quot;workshop.core&quot;} {:command &quot;(apropop\n  when)&quot;, :offset 11, :ns &quot;workshop.core&quot;} {:command &quot;(dir workshop.core)&quot;, :offset 19, :ns &quot;workshop.core&quot;} {:command &quot;(type 'workshop.core\n      )&quot;, :offset 27, :ns &quot;workshop.core&quot;} {:command &quot;(pst)&quot;, :offset 5, :ns &quot;workshop.core&quot;} {:command &quot;(def setx #{{:name \&quot;a\&quot;, :rank 32}})&quot;, :offset 34, :ns &quot;workshop.core&quot;} {:command &quot;(def game\n  {:round 2\n   :players #{{:name \&quot;Una\&quot; :ranking 43}\n              {:name \&quot;Bob\&quot; :ranking 77}\n              {:name \&quot;Cid\&quot; :ranking 33}}\n   :scores {\&quot;Una\&quot; 1400\n            \&quot;Bob\&quot; 1240\n            \&quot;Cid\&quot; 1024}})&quot;, :offset 214, :ns &quot;workshop.core&quot;} {:command &quot;(get-in game [:players\n              ])&quot;, :offset 37, :ns &quot;workshop.core&quot;} {:command &quot;(map (get game :players) (fn [p] (get p :name))&quot;, :offset 47, :ns &quot;workshop.core&quot;} {:command &quot;(map (get game :players) (fn [p] (get p :name)))&quot;, :offset 48, :ns &quot;workshop.core&quot;} {:command &quot;(get game :player)&quot;, :offset 0} {:command &quot;(get game :players)&quot;, :offset 18, :ns &quot;workshop.core&quot;} {:command &quot;(map (fn [p] (get p :name)) (get game :players))&quot;, :offset 47, :ns &quot;workshop.core&quot;} {:command &quot;(find (fn [p] (= (get p :name) \&quot;Una\&quot;) (get game :players)))&quot;, :offset 59, :ns &quot;workshop.core&quot;} {:command &quot;(def players (:players game))&quot;, :offset 28, :ns &quot;workshop.core&quot;} {:command &quot;(filter (fn [p] (= (:name p) name) players)))&quot;, :offset 45, :ns &quot;workshop.core&quot;} {:command &quot;(filter (fn [p] (= (:name p) \&quot;Una\&quot;) players))&quot;, :offset 33, :ns &quot;workshop.core&quot;} {:command &quot;((filter (fn [p] (= (:name p) name))) players)&quot;, :offset 46, :ns &quot;workshop.core&quot;} {:command &quot;(loop [i 0]\n  (if (&lt; i 10)\n    (recur (inc i))\n    i\n    )\n  )&quot;, :offset 62, :ns &quot;workshop.core&quot;} {:command &quot;(loop [\n       i 0\n       j 10\n       ]\n  (when (&lt; (* i j) 100)\n    (println i j (* i j))\n    (recur (inc i) (+ j 5))\n    )\n  )\n)&quot;, :offset 129, :ns &quot;workshop.core&quot;} {:command &quot;(loop [\n       i 0\n       j 10\n       ]\n  (when (&lt; (* i j) 100)\n    (println i j (* i j))\n    (recur (inc i) (+ j 5))\n    )\n  )&quot;, :offset 127, :ns &quot;workshop.core&quot;} {:command &quot;(sample-loop-with-recur 0\n                        )&quot;, :offset 50, :ns &quot;workshop.core&quot;} {:command &quot;(sample-loop-with-recur 0)&quot;, :offset 26, :ns &quot;workshop.core&quot;} {:command &quot;(def m (atom {\n              :foo 1\n              :bar \&quot;hi\&quot;\n              }))&quot;, :offset 77, :ns &quot;workshop.protocols&quot;} {:command &quot;m&quot;, :offset 1, :ns &quot;workshop.protocols&quot;} {:command &quot;@m&quot;, :offset 2, :ns &quot;workshop.protocols&quot;} {:command &quot;(test-injected-game)&quot;, :offset 19, :ns &quot;workshop.game.game-v3&quot;} {:command &quot;(test-injected-game 5 [1 2 5])&quot;, :offset 28, :ns &quot;workshop.game.game-v3&quot;} {:command &quot;(demo10)&quot;, :offset 7, :ns &quot;workshop.channels&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1561593974893">{:repl-history {:ide [], :local [{:command &quot;42&quot;, :offset 2, :ns &quot;workshop.core&quot;} {:command &quot;(println \&quot;hello world\&quot;)&quot;, :offset 22, :ns &quot;workshop.core&quot;} {:command &quot;(/ (+ 7 (* 3 4) 5) 10)&quot;, :offset 3, :ns &quot;workshop.core&quot;} {:command &quot;(foo \&quot;drx\&quot;)&quot;, :offset 10, :ns &quot;workshop.core&quot;} {:command &quot;(foo \&quot;drx\&quot;\n     \n     )&quot;, :offset 22, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius 54)&quot;, :offset 24, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius 32) &quot;, :offset 25, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius 212)&quot;, :offset 25, :ns &quot;workshop.core&quot;} {:command &quot;(fahrenheit-&gt;celsius -40)&quot;, :offset 25, :ns &quot;workshop.core&quot;} {:command &quot;(find-doc \&quot;remainder\&quot;)&quot;, :offset 0, :ns &quot;workshop.core&quot;} {:command &quot;(source when)&quot;, :offset 13, :ns &quot;workshop.core&quot;} {:command &quot;(apropo when)&quot;, :offset 13, :ns &quot;workshop.core&quot;} {:command &quot;(apropop\n  when)&quot;, :offset 11, :ns &quot;workshop.core&quot;} {:command &quot;(dir workshop.core)&quot;, :offset 19, :ns &quot;workshop.core&quot;} {:command &quot;(type 'workshop.core\n      )&quot;, :offset 27, :ns &quot;workshop.core&quot;} {:command &quot;(pst)&quot;, :offset 5, :ns &quot;workshop.core&quot;} {:command &quot;(def setx #{{:name \&quot;a\&quot;, :rank 32}})&quot;, :offset 34, :ns &quot;workshop.core&quot;} {:command &quot;(def game\n  {:round 2\n   :players #{{:name \&quot;Una\&quot; :ranking 43}\n              {:name \&quot;Bob\&quot; :ranking 77}\n              {:name \&quot;Cid\&quot; :ranking 33}}\n   :scores {\&quot;Una\&quot; 1400\n            \&quot;Bob\&quot; 1240\n            \&quot;Cid\&quot; 1024}})&quot;, :offset 214, :ns &quot;workshop.core&quot;} {:command &quot;(get-in game [:players\n              ])&quot;, :offset 37, :ns &quot;workshop.core&quot;} {:command &quot;(map (get game :players) (fn [p] (get p :name))&quot;, :offset 47, :ns &quot;workshop.core&quot;} {:command &quot;(map (get game :players) (fn [p] (get p :name)))&quot;, :offset 48, :ns &quot;workshop.core&quot;} {:command &quot;(get game :player)&quot;, :offset 0} {:command &quot;(get game :players)&quot;, :offset 18, :ns &quot;workshop.core&quot;} {:command &quot;(map (fn [p] (get p :name)) (get game :players))&quot;, :offset 47, :ns &quot;workshop.core&quot;} {:command &quot;(find (fn [p] (= (get p :name) \&quot;Una\&quot;) (get game :players)))&quot;, :offset 59, :ns &quot;workshop.core&quot;} {:command &quot;(def players (:players game))&quot;, :offset 28, :ns &quot;workshop.core&quot;} {:command &quot;(filter (fn [p] (= (:name p) name) players)))&quot;, :offset 45, :ns &quot;workshop.core&quot;} {:command &quot;(filter (fn [p] (= (:name p) \&quot;Una\&quot;) players))&quot;, :offset 33, :ns &quot;workshop.core&quot;} {:command &quot;((filter (fn [p] (= (:name p) name))) players)&quot;, :offset 46, :ns &quot;workshop.core&quot;} {:command &quot;(loop [i 0]\n  (if (&lt; i 10)\n    (recur (inc i))\n    i\n    )\n  )&quot;, :offset 62, :ns &quot;workshop.core&quot;} {:command &quot;(loop [\n       i 0\n       j 10\n       ]\n  (when (&lt; (* i j) 100)\n    (println i j (* i j))\n    (recur (inc i) (+ j 5))\n    )\n  )\n)&quot;, :offset 129, :ns &quot;workshop.core&quot;} {:command &quot;(loop [\n       i 0\n       j 10\n       ]\n  (when (&lt; (* i j) 100)\n    (println i j (* i j))\n    (recur (inc i) (+ j 5))\n    )\n  )&quot;, :offset 127, :ns &quot;workshop.core&quot;} {:command &quot;(sample-loop-with-recur 0\n                        )&quot;, :offset 50, :ns &quot;workshop.core&quot;} {:command &quot;(sample-loop-with-recur 0)&quot;, :offset 26, :ns &quot;workshop.core&quot;} {:command &quot;(def m (atom {\n              :foo 1\n              :bar \&quot;hi\&quot;\n              }))&quot;, :offset 77, :ns &quot;workshop.protocols&quot;} {:command &quot;m&quot;, :offset 1, :ns &quot;workshop.protocols&quot;} {:command &quot;@m&quot;, :offset 2, :ns &quot;workshop.protocols&quot;} {:command &quot;(test-injected-game)&quot;, :offset 19, :ns &quot;workshop.game.game-v3&quot;} {:command &quot;(test-injected-game 5 [1 2 5])&quot;, :offset 28, :ns &quot;workshop.game.game-v3&quot;} {:command &quot;(demo10)&quot;, :offset 7, :ns &quot;workshop.channels&quot;} {:command &quot;(play-game)&quot;, :offset 10, :ns &quot;workshop.game.game-v4&quot;} {:command &quot;nil&quot;, :offset 3, :ns &quot;workshop.core&quot;} {:command &quot;(nil)&quot;, :offset 5, :ns &quot;workshop.core&quot;} {:command &quot;(type nil)&quot;, :offset 10, :ns &quot;workshop.core&quot;} {:command &quot;(type :s)&quot;, :offset 9, :ns &quot;workshop.core&quot;} {:command &quot;(macroexpand-1 when2)&quot;, :offset 21, :ns &quot;workshop.macros&quot;} {:command &quot;(println (macroexpand-1 '(or false false true)))&quot;, :offset 48, :ns &quot;workshop.macros&quot;} {:command &quot;(macroexpand-1 '(or false false true))&quot;, :offset 38, :ns &quot;workshop.macros&quot;} {:command &quot;(println (macroexpand-1 '(or false false true)))\n&quot;, :offset 49, :ns &quot;workshop.macros&quot;} {:command &quot;(macroexpand-1 `(just-do-it (println 1)))&quot;, :offset 38, :ns &quot;workshop.macros&quot;} {:command &quot;(macroexpand-1 `(just-do-it (println 1) (println 2)))&quot;, :offset 50, :ns &quot;workshop.macros&quot;} {:command &quot;(macroexpand-1 '(execute (println 1)))&quot;, :offset 13, :ns &quot;workshop.macros&quot;} {:command &quot;(cons \&quot;a\&quot; [])&quot;, :offset 12, :ns &quot;workshop.macros&quot;} {:command &quot;(conj \&quot;a\&quot; [\&quot;b\&quot;])&quot;, :offset 5, :ns &quot;workshop.macros&quot;} {:command &quot;(cons \&quot;a\&quot; [\&quot;b\&quot;])&quot;, :offset 5, :ns &quot;workshop.macros&quot;} {:command &quot;(cons \&quot;a\&quot; '(\&quot;b\&quot;))&quot;, :offset 16, :ns &quot;workshop.macros&quot;} {:command &quot;(cons \&quot;b\&quot; '(\&quot;a\&quot;))&quot;, :offset 14, :ns &quot;workshop.macros&quot;} {:command &quot;`(1 2 3)&quot;, :offset 7, :ns &quot;workshop.macros&quot;} {:command &quot;'(1 2 3)&quot;, :offset 7, :ns &quot;workshop.macros&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -237,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application.game_v4">
+  <component name="RunManager" selected="Clojure Application.destructuring">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -268,6 +247,18 @@
       <setting name="workDir" value="$PROJECT_DIR$/src/workshop" />
       <method v="2" />
     </configuration>
+    <configuration name="destructuring" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="workshop" />
+      <setting name="path" value="$PROJECT_DIR$/src/workshop/destructuring.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/workshop" />
+      <method v="2" />
+    </configuration>
     <configuration name="game_v4" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="workshop" />
       <setting name="path" value="" />
@@ -278,6 +269,18 @@
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="macros" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="workshop" />
+      <setting name="path" value="$PROJECT_DIR$/src/workshop/macros.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/workshop" />
       <method v="2" />
     </configuration>
     <configuration name="protocols" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
@@ -298,9 +301,13 @@
       <item itemvalue="Clojure Application.asyncs" />
       <item itemvalue="Clojure Application.game_v4" />
       <item itemvalue="Clojure REPL.Leiningen REPL" />
+      <item itemvalue="Clojure Application.macros" />
+      <item itemvalue="Clojure Application.destructuring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Clojure Application.destructuring" />
+        <item itemvalue="Clojure Application.macros" />
         <item itemvalue="Clojure Application.game_v4" />
         <item itemvalue="Clojure Application.asyncs" />
         <item itemvalue="Clojure Application.protocols" />
@@ -320,18 +327,18 @@
       <workItem from="1561393840530" duration="287000" />
       <workItem from="1561394146952" duration="4532000" />
       <workItem from="1561398933499" duration="15310000" />
-      <workItem from="1561486437815" duration="15681000" />
+      <workItem from="1561486437815" duration="26124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44344000" />
+    <option name="totallyTimeSpent" value="54787000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="58" y="23" width="720" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2359882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -340,7 +347,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31847134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31847134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973614" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,10 +364,10 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Leiningen" order="7" weight="0.3297568" />
+      <window_info anchor="right" id="Leiningen" order="7" weight="0.32890856" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="REPL" order="10" visible="true" weight="0.26108727" />
+      <window_info anchor="right" id="REPL" order="10" weight="0.41740412" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,21 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/day1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/workshop/day2/temperature_test.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
@@ -578,11 +570,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/slides/day2.md">
+    <entry file="file://$PROJECT_DIR$/doc/day2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="380">
-            <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           </first_editor>
           <second_editor />
         </state>
@@ -590,22 +582,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/workshop/channels.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="77" column="17" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="17" />
+        <state relative-caret-position="578">
+          <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/workshop/game/game_v3.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="61" selection-start-line="61" selection-start-column="1" selection-end-line="62" selection-end-column="15" />
+    <entry file="file://$PROJECT_DIR$/doc/day1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-265">
+            <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/workshop/game/game_v4.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workshop/game/game_v3.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" selection-start-line="61" selection-start-column="1" selection-end-line="62" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workshop/macros.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workshop/destructuring.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workshop/day3/components.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/day3.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="135">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
